@@ -1,0 +1,150 @@
+/* background and global font rule */
+body {
+    background-color:rgba(161,4,22,0.7 );
+    background-image: url('images/icecreamicon1.png');
+    font-family: "Roboto", sans-serif;
+    margin-top: 5%;
+    }
+
+/* main div-box were all items sitt  */
+.main-box{
+    margin: 0 5% 10% 5%; 
+    padding: 1% 5% 3px 5%;
+    background-color:#363636;
+    color: white;
+    }
+
+
+/* Navigajon-bar */
+nav{
+    margin: 0% 5% 0 5%;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(29, 29, 29);
+    }
+
+nav>a {
+    display: block;
+    color: #A10416;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: bold;
+    float: left;
+    }
+
+nav>.here{
+    color: white;
+    background-color:#363636;
+    }
+
+nav>a:hover {
+    background-color:black; 
+    }
+
+/* footer */
+footer{
+    text-align: center;
+    margin: 4% 0% 0% 0%;
+    font-size: 0.6em;
+    }
+
+/* Home-page */
+#main-img{
+    width: 50%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+#for-screen-readers{
+    display: none;
+    }
+
+#home-map{
+    width: 400px;
+    height:400px;
+    }
+
+/* I-Scream Menu-page */
+.menu-item {
+    padding: 20px;
+    margin: 20px 0;
+    width: 50%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 5px 5px 20px white;
+    background-color: #A10416;
+    font-size: 1.2em;
+    color:white;
+    }
+
+#ice-creams>h2{
+    text-transform: uppercase;
+    font-weight: bold;
+    }
+
+.menu-item > h2 {
+    text-transform: uppercase;
+    font-size: 1.5em;
+    }
+
+.price {
+    float: right;
+    font-size: 1.2em;
+    font-weight: bold;
+    }
+    
+/* Contact-page */
+#contact-map{
+    width: 200px;
+    height: 200px;
+    }
+address>p>a{
+    text-decoration: underline;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    }
+
+/* media-Q*/
+
+@media only screen and (max-width: 900px) {
+    .main-box{
+        margin: 0 2% 5% 2%; 
+            }
+    body{
+         margin-top: 2%;
+            }
+    nav{
+        margin: 0% 2% 0 2%;
+    }
+    nav>a {
+        font-size: 1em;
+        padding: 6px 14px;
+    }
+
+}
+
+@media only screen and (max-width: 700px) {
+    nav>a {
+        padding: 6px 4px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .main-box{
+        margin: 0; 
+            }
+    body{
+        margin-top: 0;
+            }
+    nav{
+        margin: 0;
+            }
+}   
+
+

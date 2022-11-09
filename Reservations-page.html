@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="i scream/ice cream main page">
+    <meta name="author" content="Andre N">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/icecreamicon2.png">
+
+    <title>I-scream Reservations Page</title>
+</head>
+
+<body>
+    <nav>
+        <a href="Home-page.html">Home page</a>
+        <a href="Ice-creams-page.html">I-Scream Menu</a>
+        <a class="here" href="Reservations-page.html">Make a Reservation</a>
+        <a href="Contact-page.html">I-Scream Contact Page</a>
+    </nav>
+    <div class="main-box">
+
+        <div class="main-content">
+            <H1>Make Your Reservation</H1>
+            <form name="myForm" method="POST">
+                <h2>Your Name</h2>
+                <p>First name : <input type="text" name="fname"></p>
+                <p>Last name : <input type="text" name="lname"></p>
+            <h2>Size of your group</h2> 
+               <P>
+                    Adults: <input type="number" min="0" max="100" name="adults"> 
+                    Children: <input type="number" min="0" max="100" name="children"> 
+                    Infints: <input type="number" min="0" max="100" name="infints"></P>
+            <h2>Select a time and date for your Reservation</h2>
+                <p>Date : <input type="date" name="date"></p>
+                <p>Select a time : <input type="time" name="time"></p>
+            <h2>Enter your contact info </h2>
+                <p>Telephone : <input type="tel" name="usrtel"></p>
+                <p>E-mail : <input type="email" name="emailaddress"></p>
+            <h2>Any additional information for your reservation?</h2>
+                <p><textarea placeholder=" Special needs, allergies or extra wishes we need to know about?" rows="5" cols="70" name="comment"></textarea></p>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+
+
+        <footer>
+            <hr>
+            <p> &copy;All images and assets are owned by I-Scream</p>
+        </footer>
+    </div>
+
+</body>
